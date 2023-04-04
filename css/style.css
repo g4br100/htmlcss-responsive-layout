@@ -45,19 +45,23 @@ button{
     justify-content: space-between;
 }
 
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
 section{
-    margin: 0 20%;
+    padding: 0 20%;
 }
 
 #bigbox{
     display: flex;
     width: 75%;
 }
-#bigbox img{
+#bigbox img {
     width: 30%;
 }
-
-
 
 #inbox{
     width: 40%;
@@ -71,3 +75,32 @@ section{
 .vcolor{
     background-color: blueviolet;
 }
+
+.sbox1, .sbox1 img{
+    width: 60%;
+}
+s
+.sbox2, .sbox2 img{
+    width: 40%;
+}
+
+
+.sbox2{
+    padding-top: 20%;
+}
+
+
+.content3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+
+}
+
+
+.box3 {
+    width: calc(100%/3);
+}
+
