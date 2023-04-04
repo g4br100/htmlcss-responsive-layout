@@ -84,6 +84,16 @@ s
     width: 40%;
 }
 
+section ul{
+    list-style: none;
+}
+
+ul li img{
+        width: 10%;
+        
+}
+
+
 
 .sbox2{
     padding-top: 20%;
@@ -104,3 +114,29 @@ s
     width: calc(100%/3);
 }
 
+.container4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+
+.box5{
+    width: 70%;
+}
+
+.box6{
+    width: 20%;
+}
+.box6 img{
+    width: 70%;
+}
+
+#free {
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
