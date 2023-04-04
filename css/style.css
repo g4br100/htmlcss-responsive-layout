@@ -26,7 +26,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 0 20%;
-    padding: 12px;
+    padding: 20px;
     font-size: 18px;
 }
 
@@ -37,4 +37,37 @@ button{
     border-color: rgba(240, 248, 255, 0);
     padding: 5px 20px;
     font-size: 18px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section{
+    margin: 0 20%;
+}
+
+#bigbox{
+    display: flex;
+    width: 75%;
+}
+#bigbox img{
+    width: 30%;
+}
+
+
+
+#inbox{
+    width: 40%;
+}
+
+.box{
+    width: 25%;
+}
+
+
+.vcolor{
+    background-color: blueviolet;
 }
