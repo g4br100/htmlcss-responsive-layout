@@ -41,8 +41,12 @@ button{
 
 .container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3%;
+    padding: 5% 0;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 .container2{
@@ -57,18 +61,50 @@ section{
 
 #bigbox{
     display: flex;
-    width: 75%;
+    width: 65%;
+    background-color: #65bcfb;
+    padding: 0 3%;
+    padding-top: 3%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    gap: 30px;
 }
 #bigbox img {
-    width: 30%;
+    max-width:40%;
 }
 
-#inbox{
-    width: 40%;
+#bigbox button{
+    background-color: #0062ff;
+    color: white;
+    font-weight: italic;
+    font-size: 15px;
+    margin-top: 20px;
 }
+
+.box i{
+    font-size: 70px;
+}
+
+.box h2, #bigbox h2{
+    padding: 15px 0;
+    font-size: 18px;
+    color: #0062ff;
+}
+
+.box, #bigbox p{
+        color:rgb(62, 62, 62);
+        font-weight: bold;
+}
+
+
 
 .box{
-    width: 25%;
+    width: 30%;
+    background-color: #65bcfb;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    padding: 3%;
+    text-align: center;
 }
 
 
@@ -88,11 +124,14 @@ section ul{
     list-style: none;
 }
 
-ul li img{
-        width: 10%;
-        
+.lst img{
+        width: 10%;    
 }
 
+.lst li{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 .sbox2{
