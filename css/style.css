@@ -39,11 +39,10 @@ button{
     font-size: 18px;
 }
 
-.container{
+#container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 3%;
     padding: 5% 0;
     font-size: 14px;
     line-height: 25px;
@@ -52,23 +51,37 @@ button{
 .container2{
     display: flex;
     justify-content: space-between;
-    margin: 0 15%;
+    gap: 70px;
+    margin: 0 10%;
+    padding-bottom: 5%;
 }
 
 section{
     padding: 0 20%;
 }
 
+
+#bigbox, .box{
+    background-color: #65bcfb;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+
 #bigbox{
     display: flex;
-    width: 65%;
-    background-color: #65bcfb;
+    width: 63%;
     padding: 0 3%;
     padding-top: 3%;
-    border-radius: 20px;
-    margin-bottom: 3%;
     gap: 30px;
 }
+
+.box{
+    width: 30%;
+    padding: 3%;
+    text-align: center;
+}
+
+
 #bigbox img {
     max-width:40%;
 }
@@ -97,28 +110,59 @@ section{
 }
 
 
-
-.box{
-    width: 30%;
-    background-color: #65bcfb;
-    border-radius: 20px;
-    margin-bottom: 3%;
-    padding: 3%;
-    text-align: center;
-}
-
-
 .vcolor{
-    background-color: blueviolet;
+    background-color: #9593e6;
 }
 
-.sbox1, .sbox1 img{
+.sbox1 {
     width: 60%;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 25px;
 }
-s
-.sbox2, .sbox2 img{
+
+.sbox1 h2{
+    margin-bottom: 5%;
+}
+
+.sbox1 img{
+    width: 60%;
+    padding-top: 30%;
+    padding-bottom: 15%;
+}
+
+.sbox2 h2{
+    font-size: 20px;
+    margin-bottom: 6%;
+}
+
+.sbox2{
+    margin-top: 30%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3% 3%;
     width: 40%;
 }
+.sbox2 p{
+    line-height: 30px;
+    font-style: oblique;
+}
+
+.sbox2 i {
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 100%;
+    background-color: #9593e6;
+    border: 20px solid #9593e6;
+}
+
+.sbox2 img{
+    width: 60%;
+    padding-bottom: 5%;
+}
+
 
 section ul{
     list-style: none;
@@ -134,9 +178,7 @@ section ul{
 }
 
 
-.sbox2{
-    padding-top: 20%;
-}
+
 
 
 .content3{
