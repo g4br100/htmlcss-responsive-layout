@@ -48,7 +48,7 @@ button{
     line-height: 25px;
 }
 
-.container2{
+#container2{
     display: flex;
     justify-content: space-between;
     gap: 70px;
@@ -114,7 +114,7 @@ section{
     background-color: #9593e6;
 }
 
-.sbox1 {
+#sbox1 {
     width: 60%;
     color: white;
     font-size: 14px;
@@ -122,22 +122,22 @@ section{
     line-height: 25px;
 }
 
-.sbox1 h2{
+#sbox1 h2{
     margin-bottom: 5%;
 }
 
-.sbox1 img{
+#sbox1 img{
     width: 60%;
     padding-top: 30%;
     padding-bottom: 15%;
 }
 
-.sbox2 h2{
+#sbox2 h2{
     font-size: 20px;
     margin-bottom: 6%;
 }
 
-.sbox2{
+#sbox2{
     margin-top: 30%;
     background-color: white;
     border-radius: 20px;
@@ -145,79 +145,248 @@ section{
     padding: 3% 3%;
     width: 40%;
 }
-.sbox2 p{
+#sbox2 p{
     line-height: 30px;
     font-style: oblique;
+    color: #404040
 }
 
-.sbox2 i {
+#sbox2 i {
     font-size: 12px;
     font-weight: lighter;
     border-radius: 100%;
     background-color: #9593e6;
     border: 20px solid #9593e6;
+    margin-top: 30px;
 }
 
-.sbox2 img{
+#sbox2 img{
     width: 60%;
     padding-bottom: 5%;
 }
 
 
-section ul{
+
+#txtcenter{
+    text-align: center;
+    padding: 3%;
+}
+
+#txtcenter h1{
+    padding: 2%;
+    font-size: 40px;
+    color: #9593e6;
+}
+
+#lst {
     list-style: none;
+    margin-bottom: 6%;
 }
 
-.lst img{
-        width: 10%;    
+.circle img{
+    width: auto; 
+    height: 100%; 
+    margin-left: -30px;
 }
 
-.lst li{
+
+.circle {
+    width: 250px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+}
+
+#lst li{
     display: flex;
     justify-content: space-between;
+    background-color: #9593e6;
+    padding: 3% 0;
+    margin-bottom: 3%;
+    border-radius: 50px;
+    color: white;
+    align-items: center;
+}
+
+#lst div{
+    margin-left: 3%;
+}
+
+.vcolor > h1{
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font-size: 40px;
+}
+
+#lst p{
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+#lst h3, #lst p{
+    font-weight: lighter;
 }
 
 
+#lst h3{
+    font-size: 17px;
+}
 
 
+#lst i{
+    font-size: 18px;
+}
 
-.content3{
+#container3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     list-style-type: none;
-
+    gap: 30px;
+    padding-bottom: 5%;
 }
 
-
-.box3 {
-    width: calc(100%/3);
+#container3 li{
+    background-color: white;
+    width: 31%;
+    padding: 3%;
+    border-radius: 20px;
 }
 
-.container4{
+#container3 h1, #container3 h3{
+    color: #9593e6;
+    padding-top: 2%;
+}
+
+#container3 h1{
+    font-size: 55px;
+}
+
+#container3 p{
+    line-height: 26px;
+    font-weight: light;
+    font-size: 14px;
+    color: #404040;
+    padding: 5% 0;
+}
+
+#container3 button{
+    background-color: #9593e6;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    padding: 2% 0;
+    font-weight: bold;
+    
+}
+
+#container4{
     display: flex;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 10% 5%;
 }
 
 
-.box5{
-    width: 70%;
+#box5 h1{
+    font-size: 60px;
+    padding-bottom: 5%;
+    color: #9593e6;
 }
 
-.box6{
-    width: 20%;
-}
-.box6 img{
-    width: 70%;
+#box5 p{
+    line-height: 35px;
+    color: #404040;
+    padding-bottom: 5%;
 }
 
+#box5{
+    width: 60%;
+}
+
+#box6{
+    width: 30%;
+    position: relative;
+}
+
+#box6 h3{
+    padding: 5% 0;
+    padding-right: 40%;
+    font-size: 22px;
+    color: #9593e6;
+    line-height: 30px;
+}
+
+#box6 button{
+    color: white;
+    background-color: #9593e6;
+    font-size: 13px;
+}
+
+#box6 img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+#box6>i{
+    font-size: 60px;
+    position:absolute;
+    top: 0;
+    right: 40%;
+}
 #free {
+    color: white;
     text-align: center;
+    padding: 5% 0;
+}
+
+#free h2{
+    font-size: 35px;
+    padding-bottom: 2%;
+}
+
+#free h1{
+    font-size: 70px;
+    color: rgb(255, 174, 0);
+}
+
+#free p:first-child{
+    font-weight: lighter;
+    padding-bottom: 1%;
+}
+
+#free p:nth-of-type(2){
+    padding: 2% 30%;
+    line-height: 26px;
+    font-weight: lighter;
+}
+
+#free button{
+    font-size: 20px;
+    margin: 2% 0;
+}
+
+#free p:nth-last-of-type(1){
+    font-size: 13px;
+}
+
+#free a{
+    color: white;
 }
 
 footer{
     background-color: black;
     text-align: center;
+    padding: 2% 40%;
+    color: white;
+}
+
+footer p:first-child{
+    padding-bottom: 13%;
+}
+
+footer a{
+    color: #9593e6;
 }
