@@ -14,7 +14,7 @@ header{
     font-size: 15px; 
 }
 
-.menu{
+#menu{
     list-style: none;
     display: flex;
     gap: 30px;
@@ -365,8 +365,10 @@ section{
 }
 
 #free button{
-    font-size: 20px;
     margin: 2% 0;
+    padding: 18px 6%;
+    font-size: 14px;
+    color: #9593e6;
 }
 
 #free p:nth-last-of-type(1){
@@ -392,7 +394,25 @@ footer a{
     color: #9593e6;
 }
 
+#main-nav div{
+    display: none;
+    font-size: 30px;
+}
+
 @media screen and (max-width:480px) {
+    #menu{
+            display: none;
+        }
+
+        #main-nav{
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+        }
+
+        #main-nav div{
+            display: block;
+        }
 
     #container{
         display: block;
@@ -416,10 +436,146 @@ footer a{
         margin: 10% 0;
     }
 
-    .menu{
+    section{
+        padding: 0 10%;
+    }
+
+    #container2{
+        display: block;
+        margin: 0;
+    }
+
+    #sbox1, #sbox2, #sbox1 img,#sbox2 img{
+        width: 100%;
+    }
+
+    #sbox2{
+        padding: 10% 5%;
+        margin-bottom: 10%;
+    }
+
+    #txtcenter {
+        padding: 15% 0;
+    }
+
+    #lst{
+        padding-bottom: 15%;
+    }
+
+    #txtcenter p{
+        padding: 5% 0;
+    }
+    
+    #txtcenter h1{
+        font-size: 30px;
+        font-weight:bolder;
+    }
+
+    #lst h3{
+        font-weight: bolder;
+    }
+
+    #lst li{
+        display: block;
+        padding: 5%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .circle img{
+        height: 269px; 
+        margin-left: -63px;
+    }
+    
+    
+    .circle {
+        height: 240px; 
+        overflow: hidden; 
+        border-radius: 50%; 
+    }
+
+    .vcolor > h1 {
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 5% 0;
+    }
+
+    #container3{
         display: block;
     }
 
-    section{
+    #container3 li{
+        width: 100%;
+        padding: 10%;
+        margin-bottom: 10%;
     }
+
+    #container3 h3{
+        font-weight: bolder;
+    }
+
+    #container4{
+        display: block;
+        padding: 15% 0;
+    }
+
+    #box5 h1{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    #box5, #box6{
+        width: 100%;
+    }
+
+    #container4 p{
+        padding-bottom: 15%;
+    }
+
+    #box6 h3{
+        padding-right: 20%;
+    }
+
+    #free h1{
+        font-size: 60px;
+    }
+
+    #free{
+        padding: 10% 0;
+    }
+
+    #free p:first-child {
+        padding-bottom: 5%;
+    }
+
+    #free h2{
+        font-size: 30px;
+    }
+
+    #free p{
+        padding: 10% 0;
+    }
+
+
+    #free p:nth-of-type(2) {
+        padding: 2% 0;
+        line-height: 26px;
+        font-weight: lighter;
+    }
+
+    #free button{
+        margin: 5% 0;
+        padding: 17px 30%;
+        font-size: 14px;
+        color: #9593e6;
+    }
+
+    footer{
+        padding: 10% 10%;
+    }
+
+    footer>p{
+        padding-bottom: 3%;
+    }
+
 }
