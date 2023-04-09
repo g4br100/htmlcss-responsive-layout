@@ -83,7 +83,7 @@ section{
 
 
 #bigbox img {
-    max-width:40%;
+    width:40%;
 }
 
 #bigbox button{
@@ -102,6 +102,7 @@ section{
     padding: 15px 0;
     font-size: 18px;
     color: #0062ff;
+    font-weight: bolder;
 }
 
 .box, #bigbox p{
@@ -389,4 +390,36 @@ footer p:first-child{
 
 footer a{
     color: #9593e6;
+}
+
+@media screen and (max-width:480px) {
+
+    #container{
+        display: block;
+        padding: 20% 0;
+    }
+
+    #bigbox{
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    #bigbox img{
+        padding-top: 10%;
+        width: 100%;
+    }
+
+    .box{
+        width: 100%;
+        padding: 12% 10%;
+        margin: 10% 0;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    section{
+    }
 }
