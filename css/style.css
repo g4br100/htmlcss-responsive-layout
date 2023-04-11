@@ -400,9 +400,6 @@ footer a{
 }
 
 @media screen and (max-width:480px) {
-    #menu{
-            display: none;
-        }
 
         #main-nav{
             justify-content: space-between;
@@ -410,17 +407,15 @@ footer a{
             margin: 0;
         }
 
-        #main-nav div{
+        #menu, #main-nav div, #container, #bigbox, #container2, #lst li, #container3, #container4 {
             display: block;
         }
 
     #container{
-        display: block;
         padding: 20% 0;
     }
 
     #bigbox{
-        display: block;
         width: 100%;
         padding: 0 10%;
     }
@@ -441,7 +436,6 @@ footer a{
     }
 
     #container2{
-        display: block;
         margin: 0;
     }
 
@@ -476,7 +470,6 @@ footer a{
     }
 
     #lst li{
-        display: block;
         padding: 5%;
         text-align: center;
         margin-bottom: 10%;
@@ -500,10 +493,6 @@ footer a{
         padding: 5% 0;
     }
 
-    #container3{
-        display: block;
-    }
-
     #container3 li{
         width: 100%;
         padding: 10%;
@@ -515,7 +504,6 @@ footer a{
     }
 
     #container4{
-        display: block;
         padding: 15% 0;
     }
 
@@ -578,4 +566,38 @@ footer a{
         padding-bottom: 3%;
     }
 
+}
+
+
+@media screen and (max-width:780px){
+
+
+    #main-nav{
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+
+    #main-nav div{
+        display: block;
+    }
+
+
+
+        #menu{
+            display: none;
+        }
+
+        section{
+            padding: 0 2%;
+        }
+
+        #container2{
+            display: block;
+        }
+
+        #sbox1, #sbox2, #sbox1 img, #sbox2 img{
+            width: 100%;
+        }
 }
