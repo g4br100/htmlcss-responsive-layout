@@ -12,6 +12,14 @@ header{
     background-color: #2a60e8;
     color: white;
     font-size: 15px; 
+    position: fixed;
+    z-index: 10000;    
+    width: 100%;
+}
+
+main{
+    position: relative;
+    padding-top: 5%;
 }
 
 #menu{
@@ -83,8 +91,13 @@ section{
 
 
 #bigbox img {
-    width:40%;
+    width:100%;
 }
+
+#bigbox div:last-child{
+    max-width: 160%;
+}
+
 
 #bigbox button{
     background-color: #0062ff;
@@ -196,6 +209,8 @@ section{
     height: 150px; 
     overflow: hidden; 
     border-radius: 50%; 
+    margin-left: 3%;
+
 }
 
 #lst li{
@@ -209,9 +224,6 @@ section{
     align-items: center;
 }
 
-#lst div{
-    margin-left: 3%;
-}
 
 .vcolor > h1{
     color: white;
@@ -411,6 +423,11 @@ footer a{
             display: block;
         }
 
+        #menu{
+            display: none;
+        }
+
+
     #container{
         padding: 20% 0;
     }
@@ -485,6 +502,7 @@ footer a{
         height: 240px; 
         overflow: hidden; 
         border-radius: 50%; 
+        margin-bottom: 10%;
     }
 
     .vcolor > h1 {
@@ -494,9 +512,10 @@ footer a{
     }
 
     #container3 li{
-        width: 100%;
-        padding: 10%;
-        margin-bottom: 10%;
+            width: 90%;
+            padding: 10%;
+            margin-bottom: 10%;
+            margin: 25px 17px;
     }
 
     #container3 h3{
@@ -512,8 +531,10 @@ footer a{
         font-weight: bolder;
     }
 
+
     #box5, #box6{
         width: 100%;
+        padding: 0 5%;
     }
 
     #container4 p{
@@ -569,7 +590,7 @@ footer a{
 }
 
 
-@media screen and (max-width:780px){
+@media screen and (max-width:768px){
 
 
     #main-nav{
@@ -578,13 +599,9 @@ footer a{
         margin: 0;
     }
 
-
     #main-nav div{
         display: block;
     }
-
-
-
         #menu{
             display: none;
         }
@@ -593,11 +610,139 @@ footer a{
             padding: 0 2%;
         }
 
-        #container2{
+        #container2, #bigbox{
             display: block;
         }
+
+
+        
+        #bigbox div:last-child{
+            padding-top: 5%;
+            min-width: 50%;
+        }
+        
 
         #sbox1, #sbox2, #sbox1 img, #sbox2 img{
             width: 100%;
         }
+
+        #container3 li{
+         min-width: 46%;
+        }
+        
+        .circle {
+            max-width: 440px;
+        }
+
+        #lst{
+            margin: 10px;
+        }
+
+        #lst p {
+            margin-right: 10px;
+        }
+
+        #box6 img{
+            width: 100%;
+        }
+
+
+        #box6>i {
+            right: 0;
+        }
+
+        #box6 h3{
+            padding: 8% 0;
+            padding-right: 20%;
+        }
+
+        #box5 {
+            min-width: 50%;
+        }
+
+        #free p:nth-of-type(2) {
+            padding: 2% 20%;
+        }
+
+        #free h2 {
+            font-size: 50px;
+        }
+
+        #free h1 {
+            font-size: 80px;
+        }
+
+        #free button{
+            padding: 23px 8%;
+            margin-bottom: 25px;
+        }
+
+        footer{
+            padding: 5% 25%;
+        }
 }
+
+
+
+    @media screen and (max-width:1200px){
+
+        #main-nav {
+            margin: 0 5%;
+        }
+        
+        section {
+            padding: 0 5%;
+        }
+
+
+        #container2 {
+            margin: 0 2%;
+        }
+
+
+        #container3 {
+            gap: 23px;
+        }
+
+        #container4 {
+            padding: 10% 0;
+        }
+
+        #bigbox {
+            width: 100%;
+        }
+
+
+        .box {
+            min-width: 40%;
+        }
+
+
+        footer {
+            padding: 2% 20%;
+        }
+
+
+        #free p:nth-of-type(2) {
+            padding: 2% 20%;
+        }
+
+
+        #box6 h3 {
+            padding-right: 20%;
+        }
+
+        #box6>i {
+            right: 10%;
+        }
+
+        #box6 img {
+            width: 80%;
+        }
+
+        .circle{
+            max-width: 394px;
+            margin-right: 3%;
+        }
+
+    }
